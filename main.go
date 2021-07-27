@@ -35,8 +35,10 @@ import (
 )
 
 var (
-	flagHTTP  = ":8080"
-	flagPath  = "./images"
+	flagHTTP = ":8080"
+	flagPath = "./images"
+
+	// 默认缓存容量为128mb
 	flagCache = int64(128 * (1 << 20))
 )
 

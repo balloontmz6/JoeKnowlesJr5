@@ -25,7 +25,7 @@ func (h *CacheControlPublicHandler) ServeHTTP(rw http.ResponseWriter, req *http.
 	h.Handler.ServeHTTP(hrw, req)
 }
 
-var expiresHeaderLocation = getTimeLocation("GMT")
+var expiresHeaderLocation = getTimeLocation("UTC")
 
 func getTimeLocation(name string) *time.Location {
 	l, err := time.LoadLocation(name)

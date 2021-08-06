@@ -31,7 +31,7 @@ func (rl *RequestLogger) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	fmt.Println(fmt.Sprintf(
 		"%s - - [%s] \"%s /%s %s\" %d %d \"-\" \"%s\"",
 		ip,
-		time.Now().UTC().Format("2006-01-02 15:04:05"),
+		time.Now().Format("2006-01-02 15:04:05"),
 		r.Method,
 		r.URL.String(),
 		r.Proto,

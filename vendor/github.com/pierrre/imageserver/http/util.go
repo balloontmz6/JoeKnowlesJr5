@@ -3,6 +3,8 @@ package http
 import (
 	"net/http"
 	"time"
+
+	"github.com/faith0831/tz"
 )
 
 // CacheControlPublicHandler is a net/http.Handler implementation that sets the "Cache-Control" header to "public".
@@ -28,7 +30,7 @@ func (h *CacheControlPublicHandler) ServeHTTP(rw http.ResponseWriter, req *http.
 var expiresHeaderLocation = getTimeLocation("GMT")
 
 func getTimeLocation(name string) *time.Location {
-	l, err := time.LoadLocation(name)
+	l, err := tz.LoadLocation(name)
 	if err != nil {
 		panic(err)
 	}

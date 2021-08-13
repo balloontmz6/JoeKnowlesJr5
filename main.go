@@ -20,6 +20,7 @@ import (
 	_ "github.com/pierrre/imageserver/image/tiff"
 
 	imageserver_cache "github.com/pierrre/imageserver/cache"
+	imageserver_cache_file "github.com/pierrre/imageserver/cache/file"
 	imageserver_cache_memory "github.com/pierrre/imageserver/cache/memory"
 	imageserver_http "github.com/pierrre/imageserver/http"
 	imageserver_http_crop "github.com/pierrre/imageserver/http/crop"
@@ -38,8 +39,8 @@ var (
 	flagHTTP = ":8080"
 	flagPath = "./images"
 
-	// 默认缓存容量为128mb
-	flagCache = int64(128 * (1 << 20))
+	// 默认缓存容量为512mb
+	flagCache = int64(512 * (1 << 20))
 )
 
 func main() {
@@ -140,7 +141,7 @@ func newServer() imageserver.Server {
 
 	srv = newServerImage(srv)
 	srv = newServerLimit(srv)
-	srv = newServerCacheMemory(srv)
+	srv = newServerCacheFile(srv)
 
 	return srv
 }
@@ -190,6 +191,18 @@ func newServerImage(srv imageserver.Server) imageserver.Server {
 
 func newServerLimit(srv imageserver.Server) imageserver.Server {
 	return imageserver.NewLimitServer(srv, runtime.GOMAXPROCS(0)*2)
+}
+
+func newServerCacheFile(srv imageserver.Server) imageserver.Server {
+	if flagCache <= 0 {
+		return srv
+	}
+
+	return &imageserver_cache.Server{
+		Server:       srv,
+		Cache:        &imageserver_cache_file.Cache{Path: "./cache"},
+		KeyGenerator: imageserver_cache.NewParamsHashKeyGenerator(sha256.New),
+	}
 }
 
 func newServerCacheMemory(srv imageserver.Server) imageserver.Server {

@@ -1,0 +1,11 @@
+github.com/disintegration/gift v1.2.0 h1:VMQeei2F+ZtsHjMgP6Sdt1kFjRhs2lGz8ljEOPeIR50=
+github.com/disintegration/gift v1.2.0/go.mod h1:Jh2i7f7Q2BM7Ezno3PhfezbR1xpUg9dUg3/RlKGr4HI=
+github.com/pierrre/imageserver v0.0.0-20180827190934-05bccbfbe5b2 h1:vKzjomuxbfZfBK9FvuuI9PZ8pebv5yqzTC2NGQ/ZPG8=
+github.com/pierrre/imageserver v0.0.0-20180827190934-05bccbfbe5b2/go.mod h1:vS91X+SmmaNEMr2AxenhtNDKQcxyWeRx67wiijHdMjE=
+github.com/pierrre/imageutil v0.0.0-20180827190532-b502cc6f1ae6 h1:e8MuH/sp22Ls5iy8eZVQqXO4ZT6V5PGQv+z6w/cjpmE=
+github.com/pierrre/imageutil v0.0.0-20180827190532-b502cc6f1ae6/go.mod h1:VEM9yiHnz41qkGqvCBN1q+Nk/guOHXViPYW6Z/UjSTI=
+github.com/pierrre/lrucache v0.0.0-20150302143820-f5fef5733804 h1:eYvh3CRuu7x65kAdUyskmFvKM4n/e+xiQ2gjMxNdWXU=
+github.com/pierrre/lrucache v0.0.0-20150302143820-f5fef5733804/go.mod h1:UgTAbB0O63OjwFrw196ZaABpM7CBcHB9J1RwuavCx2Q=
+golang.org/x/image v0.0.0-20190321063152-3fc05d484e9f h1:FO4MZ3N56GnxbqxGKqh+YTzUWQ2sDwtFQEZgLOxh9Jc=
+golang.org/x/image v0.0.0-20190321063152-3fc05d484e9f/go.mod h1:kZ7UVZpmo3dzQBMxlp+ypCbDeSB+sBbTgSJuh5dn5js=
+golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=

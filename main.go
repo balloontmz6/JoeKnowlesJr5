@@ -33,6 +33,8 @@ import (
 	imageserver_image_gif "github.com/pierrre/imageserver/image/gif"
 	imageserver_image_gift "github.com/pierrre/imageserver/image/gift"
 	imageserver_source "github.com/pierrre/imageserver/source"
+
+	"imageserver/pkg"
 )
 
 var (
@@ -80,6 +82,7 @@ func newImageHTTPHandler() http.Handler {
 			&imageserver_http_image.FormatParser{},
 			&imageserver_http_image.QualityParser{},
 			&imageserver_http_gamma.CorrectionParser{},
+			&pkg.VersionParser{},
 		}),
 		Server:   newServer(),
 		ETagFunc: imageserver_http.NewParamsHashETagFunc(sha256.New),
@@ -94,7 +97,7 @@ func newImageHTTPHandler() http.Handler {
 		Handler: handler,
 	}
 
-	handler = &RequestLogger{
+	handler = &pkg.RequestLogger{
 		Handler: handler,
 	}
 
@@ -194,10 +197,6 @@ func newServerLimit(srv imageserver.Server) imageserver.Server {
 }
 
 func newServerCacheFile(srv imageserver.Server) imageserver.Server {
-	if flagCache <= 0 {
-		return srv
-	}
-
 	return &imageserver_cache.Server{
 		Server:       srv,
 		Cache:        &imageserver_cache_file.Cache{Path: "./cache"},

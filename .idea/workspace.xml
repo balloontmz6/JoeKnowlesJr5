@@ -2,88 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8b94c59-bf22-47e9-85b6-6613e459824f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/disintegration/gift/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/disintegration/gift/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/disintegration/gift/colors.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/disintegration/gift/convolution.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/disintegration/gift/effects.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/disintegration/gift/gift.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/disintegration/gift/pixels.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/disintegration/gift/rank.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/disintegration/gift/resize.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/disintegration/gift/transform.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/disintegration/gift/utils.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/faith0831/tz/tz.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/faith0831/tz/zoneinfo.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/cache/cache.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/cache/memory/memory.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/cache/server.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/http/crop/crop.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/http/error.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/http/gamma/gamma.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/http/gift/gift.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/http/gift/resize.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/http/gift/rotate.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/http/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/http/image/image.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/http/parser.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/http/util.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image/bmp/bmp.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image/crop/crop.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image/encoder.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image/gamma/gamma.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image/gif/encoder.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image/gif/gif.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image/gif/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image/gif/processor.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image/gift/gift.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image/gift/resize.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image/gift/rotate.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image/image.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image/internal/internal.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image/jpeg/jpeg.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image/png/png.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image/processor.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image/provider.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image/server.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/image/tiff/tiff.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/params.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/server.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/source/file/file.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/source/http/http.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/source/source.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/testdata/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/testdata/animated.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/testdata/dalai_gamma.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/testdata/gray_squares.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/testdata/huge.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/testdata/invalid.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/testdata/large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/testdata/medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/testdata/random.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/testdata/rings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/testdata/rules_sucks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/testdata/small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/testdata/spaceship.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageserver/testdata/testdata.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageutil/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageutil/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageutil/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageutil/at.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageutil/imageutil.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageutil/parallel.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageutil/rgba.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/imageutil/set.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/lrucache/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/pierrre/lrucache/lru_cache.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/vendor.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,12 +13,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="712">
-              <caret line="214" column="62" lean-forward="true" selection-start-line="214" selection-start-column="62" selection-end-line="214" selection-end-column="62" />
+            <state relative-caret-position="408">
+              <caret line="150" column="66" selection-start-line="150" selection-start-column="66" selection-end-line="150" selection-end-column="66" />
               <folding>
                 <element signature="e#14#1294#0" expanded="true" />
               </folding>
@@ -109,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="16">
-              <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -118,7 +39,7 @@
         <entry file="file://$USER_HOME$/go/pkg/mod/github.com/pierrre/imageserver@v0.0.0-20180827190934-05bccbfbe5b2/http/util.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -158,6 +79,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,16 +91,10 @@
               <item name="imageserver" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
-            <path>
-              <item name="imageserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go Modules &lt;imageserver&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,7 +102,7 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../go-shop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -221,16 +137,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15405117" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15724947" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.43492407" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
@@ -238,10 +148,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.43492407" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,27 +188,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/pierrre/imageserver@v0.0.0-20180827190934-05bccbfbe5b2/http/util.go">
+    <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        <state relative-caret-position="408">
+          <caret line="150" column="66" selection-start-line="150" selection-start-column="66" selection-end-line="150" selection-end-column="66" />
+          <folding>
+            <element signature="e#14#1294#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
-          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/pierrre/imageserver@v0.0.0-20180827190934-05bccbfbe5b2/http/util.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="214" column="62" lean-forward="true" selection-start-line="214" selection-start-column="62" selection-end-line="214" selection-end-column="62" />
-          <folding>
-            <element signature="e#14#1294#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
         </state>
       </provider>
     </entry>
